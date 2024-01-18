@@ -1,0 +1,17 @@
+body {
+    background-color: #447BCD;
+}
+
+.container {
+    background-color: #F8F2F2;
+    margin: 70px auto;
+    border-radius: 10px;
+    height: 150px;
+    padding: 1.5rem;
+    max-width: 600px;
+}
+
+.button {
+    background-color: #9780DB;
+    border-radius: 10px;
+}
