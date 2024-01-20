@@ -13,15 +13,33 @@
   </head>
   <body>
     <div class="container">
-      <form>
-        <div class="mb-3">
-          <input type="date" class="form-control" id="date" />
+      <div class="input-wrapper">
+        
+          <div class="mb-3">
+            <input type="date" id="date-input" />
+          </div>
+          <div class="d-grid gap-2">
+            <button class="btn btn-secondary" id="calc-age-btn">
+              Calculate
+            </button>
+          </div>
+       
+      </div>
+      <div class="output-wrapper">
+        <div>
+          <span id="years">-</span>
+          <p>Years</p>
         </div>
-
-        <div class="d-grid gap-2 button">
-          <button class="btn" type="button">Button</button>
+        <div>
+          <span id="months">-</span>
+          <p>Months</p>
         </div>
-      </form>
+        <div>
+          <span id="days">-</span>
+          <p>Days</p>
+        </div>
+      </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
